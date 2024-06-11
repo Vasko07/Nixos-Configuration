@@ -20,6 +20,8 @@
       devices = [ "nodev" ];
       efiSupport = true;
       useOSProber = true;
+       # Configuración del tema
+      theme ="/boot/grub/theme/Tela/theme.txt";
     };
   };
 
@@ -113,6 +115,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     home-manager
+    neovim
     vim
     # TERMINAL
     any-nix-shell

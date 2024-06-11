@@ -21,7 +21,6 @@
       efiSupport = true;
       useOSProber = true;
        # Configuración del tema
-      theme ="/boot/grub/theme/Tela/theme.txt";
     };
   };
 
